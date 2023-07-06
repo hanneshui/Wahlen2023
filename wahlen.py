@@ -149,20 +149,23 @@ def main():
         st.warning('Bitte Stimmen eingeben')
         return
 
-    # Calculate percentages
-    percentages = calculate_percentages(votes)
+    # if button then perform calculations
+    if st.button('Berechnungen Starten'):
 
-    # Display total votes and Wahlbeteiligung
+        # Calculate percentages
+        percentages = calculate_percentages(votes)
 
-    wahlbeteiligung = calc_wahlbeteiligung(
-        votes, wahlberechtigte, sitze_insgesamt)
+        # Display total votes and Wahlbeteiligung
 
-    st.write(f'##### Wahlbeteiligung: {wahlbeteiligung:.2%}')
-    st.write('(Gilt nur falls alle Stimmen abgegeben werden)')
-    # Display diagram with percentages
-    plot_diagram(percentages)
+        wahlbeteiligung = calc_wahlbeteiligung(
+            votes, wahlberechtigte, sitze_insgesamt)
 
-    sitze_zuteilen(votes, sitze_insgesamt)
+        st.write(f'##### Wahlbeteiligung: {wahlbeteiligung:.2%}')
+        st.write('(Gilt nur falls alle Stimmen abgegeben werden)')
+        # Display diagram with percentages
+        plot_diagram(percentages)
+
+        sitze_zuteilen(votes, sitze_insgesamt)
 
 
 if __name__ == '__main__':
