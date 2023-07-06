@@ -141,7 +141,7 @@ def main():
     votes = {party: st.sidebar.number_input(
         f'Stimmen für {party}:', min_value=0, value=v, step=500) for party, v in parties.items()}
     wahlberechtigte = st.sidebar.number_input(
-        'Wahlberechtigte:', min_value=0, step=500, value=114139)
+        'Wahlberechtigte:', min_value=0, step=1000, value=114139)
     sitze_insgesamt = st.sidebar.number_input(
         'Anzahl Sitze', min_value=0, value=4, step=1)
 
