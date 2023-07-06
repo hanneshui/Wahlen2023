@@ -151,7 +151,7 @@ def main():
         return
 
     # if button then perform calculations
-    if st.button('Berechnungen Starten'):
+    if st.button('Berechnungen starten'):
 
         # Calculate percentages
         percentages = calculate_percentages(votes)
