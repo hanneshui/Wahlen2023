@@ -129,24 +129,6 @@ def main():
     # title
     st.set_page_config(page_title='Wahlen 2023 Basel')
 
-    tracking = """<!-- Matomo -->
-<script>
-  var _paq = window._paq = window._paq || [];
-  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u="https://analytics.hanneshui.ch/";
-    _paq.push(['setTrackerUrl', u+'matomo.php']);
-    _paq.push(['setSiteId', '1']);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
-  })();
-</script>
-<!-- End Matomo Code -->
-"""
-    components.html(tracking, width=200, height=10)
-
     # Side title in the main field
     st.title('Nationalratswahlen 2023 Simulation Sitzzuteilung Basel')
     st.write('##### Es wurde die Listenverbindung zwischen SP und Grünen und zwischen EVP, GLP, Mitte, FDP, LDP berücksichtigt. Unterlisten sind nicht einzeln aufgeführt und werden zu den jeweiligen Mutterparteistimmen gerechnet. Der Einfachheit halber wurden die restlichen vereinzelten Stimmen zusammengefasst, obwohl diese nicht über eine Listenverbindung verfügen. Die Standartwerte sind auf Basis der Wahlen 2019 gesetzt.')
