@@ -145,7 +145,7 @@ def main():
 </script>
 <!-- End Matomo Code -->
 """
-    components.html(tracking, width=200, height=200)
+    components.html(tracking, width=200, height=10)
 
     # Side title in the main field
     st.title('Nationalratswahlen 2023 Simulation Sitzzuteilung Basel')
