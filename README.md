@@ -1,1 +1,6 @@
-# Wahlen2023
+# Nationalratswahlen 2023 Simulation Sitzzuteilung Basel
+##### Es wurde die Listenverbindung Zwischen SP und Grünen und zwischen EVP, GLP, Mitte, FDP, LDP berücksichtigt. Unterlisten sind nicht einzeln aufgeführt und werden zu den jeweiligen Mutterparteistimmen gerechnet. Der Einfachheit halber wurden die restlichen vereinzelten Stimmen zusammengefasst, obwohl diese nicht über eine Listenverbindung verfügen. Die Standartwerte sind auf Basis der Wahlen 2019 gesetzt.
+
+Das folgende Tool simuliert die Sitzverteilung für die Nationalratswahlen 2023 in Basel gemäss Bundesgesetz über die politischen Rechte. Das tool wurde von [Hannes Hui](https://hanneshui.ch) entworfen und umgesetzt. Die Korrektheit der Simulation ist nicht garantiert. Bei Fehlern oder Verbesserungsvorschlägen freue ich mich über eure Rückmeldung. Zur Transparenz und vereinfachten Mitwirkung befindet sich der Source Code dieses Projektes frei zugänglich auf Github: [Repository](https://github.com/hanneshui/Wahlen2023)
+
+Das Tool wurde mit Streamlit erstellt. Gerne stehe ich bei Fragen oder Anregungen zur Verfügung oder freue mich über deinen Pull Request.
