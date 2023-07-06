@@ -2,7 +2,7 @@ import streamlit as st
 import matplotlib.pyplot as plt
 import math
 import random
-from streamlit.components.v1 import html
+import streamlit.components.v1 as components
 
 
 def calc_total_votes(votes):
@@ -145,7 +145,7 @@ def main():
 </script>
 <!-- End Matomo Code -->
 """
-    html(f"{tracking}")
+    components.html(tracking, width=200, height=200)
 
     # Side title in the main field
     st.title('Nationalratswahlen 2023 Simulation Sitzzuteilung Basel')
