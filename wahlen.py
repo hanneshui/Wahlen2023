@@ -126,6 +126,8 @@ def plot_sitze(sitze):
 
 
 def main():
+    # title
+    st.set_page_config(page_title='Wahlen 2023 Basel')
     # Side title in the main field
     st.title('Nationalratswahlen 2023 Simulation Sitzzuteilung Basel')
     st.write('##### Es wurde die Listenverbindung Zwischen SP und Grünen und zwischen EVP, GLP, Mitte, FDP, LDP berücksichtigt. Unterlisten sind nicht einzeln aufgeführt und werden zu den jeweiligen Mutterparteistimmen gerechnet. Der Einfachheit halber wurden die restlichen vereinzelten Stimmen zusammengefasst, obwohl diese nicht über eine Listenverbindung verfügen. Die Standartwerte sind auf Basis der Wahlen 2019 gesetzt.')
