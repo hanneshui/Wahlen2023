@@ -59,7 +59,7 @@ def calc_sitze(votes, anz_sitze):
                     (erstzuteilung[party]+1) for party, count in votes.items()}
         max_quotient = max(quotient.values())
         max_quotient_parties = [key for key,
-                                value in votes.items() if value == max_quotient]
+                                value in quotient.items() if value == max_quotient]
         # print('quotient', quotient)
         if (len(max_quotient_parties) == 1):
             erstzuteilung[max_quotient_parties[0]] += 1
