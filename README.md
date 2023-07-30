@@ -1,6 +1,13 @@
-# Nationalratswahlen 2023 Simulation Sitzzuteilung Basel
-##### Es wurde die Listenverbindung Zwischen SP und Grünen und zwischen EVP, GLP, Mitte, FDP, LDP berücksichtigt. Unterlisten sind nicht einzeln aufgeführt und werden zu den jeweiligen Mutterparteistimmen gerechnet. Der Einfachheit halber wurden die restlichen vereinzelten Stimmen zusammengefasst, obwohl diese nicht über eine Listenverbindung verfügen. Die Standartwerte sind auf Basis der Wahlen 2019 gesetzt.
+🗳️ **Nationalratswahlen 2023 Simulation Sitzzuteilung Basel** 🇨🇭
 
-Das folgende Tool simuliert die Sitzverteilung für die Nationalratswahlen 2023 in Basel gemäss Bundesgesetz über die politischen Rechte. Das tool wurde von [Hannes Hui](https://hanneshui.ch) entworfen und umgesetzt. Die Korrektheit der Simulation ist nicht garantiert. Bei Fehlern oder Verbesserungsvorschlägen freue ich mich über eure Rückmeldung. Zur Transparenz und vereinfachten Mitwirkung befindet sich der Source Code dieses Projektes frei zugänglich auf Github: [Repository](https://github.com/hanneshui/Wahlen2023)
+#### 📋 Project Overview 📋
 
-Das Tool wurde mit Streamlit erstellt. Gerne stehe ich bei Fragen oder Anregungen zur Verfügung oder freue mich über deinen Pull Request.
+This tool simulates the seat allocation for the Nationalratswahlen 2023 in Basel, taking into account the list connections between political parties. Sub-lists are not listed individually but are counted towards their respective main party votes. For simplicity, the remaining isolated votes have been combined, even though they don't have list connections. The default values are based on the 2019 elections.
+
+#### 🛠️ How to Use 🛠️
+
+Visit the tool to experience the seat distribution simulation for the upcoming Nationalratswahlen 2023 in Basel, following the Federal Act on Political Rights. The tool is designed and implemented by [Hannes Hui](https://hanneshui.ch). Please note that the accuracy of the simulation is not guaranteed. If you encounter any errors or have suggestions for improvement, I'd love to hear your feedback. The source code for this project is freely available on GitHub for transparency and easy collaboration: [Repository](https://github.com/hanneshui/Wahlen2023)
+
+#### 🧰 Technology Stack 🧰
+
+The tool is built using Streamlit. If you have any questions or ideas for enhancements, feel free to reach out to me or submit a pull request!
